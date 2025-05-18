@@ -1,0 +1,77 @@
+export const recommendedPlaces = [
+  {
+    id: 1,
+    name: "Borj Des Cascades & Spa",
+    location: "Ouzoud, Azilal",
+    rating: 4.7,
+    category: "Hotel",
+    image: "./images/borj.png", // remplace par ton vrai chemin
+    tags: ["Navette aéroport", "Sports nautiques"],
+  },
+  {
+    id: 2,
+    name: "Bin El Ouidane Lake",
+    location: "Entre Beni Mellal & Azilal",
+    rating: 4.7,
+    category: "Activity",
+    image: "./images/binlouidane.jpg",
+    tags: ["Relaxation", "Pêche", "Sports nautiques"],
+  },
+  {
+    id: 3,
+    name: "La Villa Restaurant Lounge",
+    location: "Beni Mellal",
+    rating: 4.6,
+    category: "Restaurant",
+    image: "./images/villa.jpg",
+    tags: ["Famille", "Viande grillée"],
+  },
+  {
+    id: 4,
+    name: "Sprig Of Coffee",
+    location: "Beni Mellal",
+    rating: 4.5,
+    category: "Café",
+    image: "./images/spig.png",
+    tags: ["Café", "Petit-déjeuner"],
+  },
+];
+
+export const mostViewedPlaces = [
+  {
+    id: 5,
+    name: "Hotel SunSet",
+    location: "Beni Mellal",
+    rating: 4.7,
+    category: "Hotel",
+    image: "./images/sunset.jpg",
+    tags: ["Café", "Petit-déjeuner", "Réunions"],
+  },
+  {
+    id: 6,
+    name: "Géoparc M’Goun",
+    location: "Azilal",
+    rating: 4.7,
+    category: "Musée",
+    image: "./images/geoparc.jpeg",
+    tags: ["Géotourisme", "Eau"],
+  },
+  {
+    id: 7,
+    name: "Lacs ou Aguelmames",
+    location: "Khénifra",
+    rating: 4.7,
+    category: "Activity",
+    image: "./images/lacs.png",
+    tags: ["Relaxation", "Sports nautiques"],
+  },
+  {
+    id: 8,
+    name: "Chems Le Tazarkount",
+    location: "Afourer, Azilal",
+    rating: 4.7,
+    category: "Hotel",
+    image: "./images/chems.jpg",
+    tags: ["Spa", "Bien-être", "Room service"],
+  },
+];
